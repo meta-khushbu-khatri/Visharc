@@ -4,7 +4,7 @@ import Techicalsupport from "./Pages/Techicalsupport";
 
 function App() {
   return (
-    <BrowserRouter basename="/Visharc-project">
+    <BrowserRouter basename="/Visharc">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Techicalsupport" element={<Techicalsupport />} />
